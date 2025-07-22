@@ -30,19 +30,25 @@
     }
     section {
       padding: 2rem;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
     }
     .card {
       background: white;
       padding: 1rem;
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
     }
     footer {
       background: #333;
@@ -75,16 +81,19 @@
     <h2>Portfolio</h2>
     <div class="grid">
       <div class="card">
-        <h3>Social Media Campaign</h3>
-        <p>Managed content for a real estate client, boosting engagement by 45%.</p>
+        <img src="https://via.placeholder.com/400x250?text=Real+Estate+Flyer" alt="Real estate flyer">
+        <h3>Real Estate Flyer Design</h3>
+        <p>Promotional flyer for a modern apartment complex in Nairobi.</p>
       </div>
       <div class="card">
-        <h3>Graphic Design</h3>
-        <p>Created posters, flyers, and logos using Canva and Adobe tools.</p>
+        <img src="https://via.placeholder.com/400x250?text=Video+Editing" alt="Video editing">
+        <h3>Video Editing Project</h3>
+        <p>Reel edited for a property walkthrough video using CapCut.</p>
       </div>
       <div class="card">
-        <h3>Video Editing</h3>
-        <p>Produced and edited promotional videos with CapCut and Premiere Pro.</p>
+        <img src="https://via.placeholder.com/400x250?text=Social+Media+Campaign" alt="Social media">
+        <h3>Instagram Campaign</h3>
+        <p>Created branded visuals and managed posts for a real estate agency.</p>
       </div>
     </div>
   </section>
