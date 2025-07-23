@@ -1,12 +1,173 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lewis Kirimi Portfolio</title>
+  <title>Lewis Kirimi | Full Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0d0d0d;
+      margin: 0;
+      padding: 0;
+      color: #f5f5f5;
+    }
+    header {
+      background: linear-gradient(to right, #111111, #1a1a1a);
+      color: #ffd700;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(255, 215, 0, 0.2);
+    }
+    nav {
+      background: #1a1a1a;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #ffd700;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(255, 215, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 20px rgba(255, 215, 0, 0.2);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+      border: 1px solid #ffd700;
+    }
+    h2, h3 {
+      color: #ffd700;
+    }
+    a.button {
+      display: inline-block;
+      background-color: #ffd700;
+      color: #0d0d0d;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    footer {
+      background: #111;
+      color: #999;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-  <h1>This is a placeholder portfolio</h1>
-  <p>The original HTML was lost during the reset. Please regenerate or re-upload.</p>
+  <header>
+    <h1>Lewis Kirimi Muriungi</h1>
+    <p>Creative | Tech Enthusiast | Guitarist | Designer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Portfolio</a>
+    <a href="#music">Music</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m Lewis Kirimi Muriungi, a multi-talented creative and tech-savvy individual based in Nairobi, Kenya. I specialize in:
+    </p>
+    <ul>
+      <li>🎨 Graphic Design & Video Editing</li>
+      <li>📱 Social Media Content Creation & Management</li>
+      <li>🎸 Advanced Guitar Coaching & Songwriting</li>
+      <li>🧠 IT Support & Web Development</li>
+      <li>⌨️ Transcription, Data Entry & Office Tasks</li>
+    </ul>
+    <p>I love blending creativity with technical skills to deliver outstanding work, whether it’s visual branding, music performance, or backend support.</p>
+  </section>
+
+  <section id="work">
+    <h2>Portfolio</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://placehold.co/400x250?text=Real+Estate+Flyer" alt="Flyer">
+        <h3>Real Estate Flyer Design</h3>
+        <p>Flyer created for a high-rise apartment complex in Nairobi.</p>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/400x250?text=Video+Editing" alt="Video editing">
+        <h3>Property Video Walkthrough</h3>
+        <p>Shot and edited walkthroughs for real estate social media reels using CapCut.</p>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/400x250?text=Guitar+Sessions" alt="Guitar">
+        <h3>Guitar Coaching</h3>
+        <p>Offered one-on-one guitar lessons and composed original music for clients.</p>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/400x250?text=Web+Development" alt="Website">
+        <h3>Website Project</h3>
+        <p>Developed personal and business websites using HTML, CSS, and GitHub Pages.</p>
+      </div>
+      <div class="card">
+        <img src="https://placehold.co/400x250?text=Office+Work" alt="Admin">
+        <h3>Office Support Tasks</h3>
+        <p>Handled data entry, transcription, and document formatting in MS Office.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="music">
+    <h2>🎵 My Music</h2>
+    <p>Explore my original music, performances, and playlists on YouTube. I create soulful guitar-based compositions, instrumental covers, and more.</p>
+    <a href="https://youtube.com/@lkmusicinternational?si=vHF8uWN1MYzPOQ5t" target="_blank" class="button">Visit My YouTube Channel</a>
+
+    <div style="margin-top: 2rem;">
+      <h3>🎸 Featured Playlists</h3>
+      <ul>
+        <li>🎶 Guitar Covers</li>
+        <li>🎶 Instrumentals & Loops</li>
+        <li>🎶 Studio Live Sessions</li>
+        <li>🎶 Songwriting Projects</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      📞 0757 240 467<br />
+      📧 lewiskirimimusic@gmail.com<br />
+      📧 muriungilewisk@gmail.com<br />
+      📍 Nairobi, Kenya
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lewis Kirimi Muriungi. All rights reserved.</p>
+  </footer>
 </body>
 </html>
